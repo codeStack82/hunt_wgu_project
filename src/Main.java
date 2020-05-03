@@ -22,7 +22,7 @@ public class Main extends Application {
             tests.run();
 
             // Exits sys if running tests
-            System.exit(0);
+            //System.exit(0);
 
             // Launch main app
             launch(args);
