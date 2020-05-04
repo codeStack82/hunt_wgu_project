@@ -9,50 +9,24 @@ public class Alerter {
     private String header = "header";
     private String content = "content";
 
-    public Alerter() {
-        Alert alert = new Alert(AlertType.ERROR);
+    // TODO: Need to build overloads
+    // TODO: Build enum for AlerTypes
 
-        alert.setTitle("Test Alert");
-        alert.setHeaderText("Help");
-        alert.setContentText("Please Help me!");
-        alert.showAndWait();
-    }
+    public Alerter(String title,
+                   String header,
+                   String content,
+                    AlertType alertType ){
 
-    public Alerter(String title, String header, String content){
         this.title = title;
         this.header = header;
         this.content = content;
 
-        Alert alert = new Alert(AlertType.NONE);
+        Alert alert = new Alert(alertType);
 
         alert.setTitle(this.title);
         alert.setHeaderText(this.header);
         alert.setContentText(this.content);
-        alert.showAndWait();
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getHeader() {
-        return header;
-    }
-
-    public void setHeader(String header) {
-        this.header = header;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
+        alert.show();
     }
 
 }
