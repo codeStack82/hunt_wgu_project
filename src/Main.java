@@ -11,15 +11,15 @@ public class Main extends Application {
         public void start(Stage primaryStage) throws Exception{
             Parent root = FXMLLoader.load(getClass().getResource("views/login.fxml"));
             primaryStage.setTitle("Hunt WGU Project");
-            primaryStage.setScene(new Scene(root, 800, 400));
+            primaryStage.setScene(new Scene(root, 600, 400));
             primaryStage.setResizable(false); ;
             primaryStage.show();
         }
 
         public static void main(String[] args) {
            // Run tests
-            TestRunner tests = new TestRunner();
-            tests.run();
+//            TestRunner tests = new TestRunner();
+//            tests.run();
 
             // Exits sys if running tests
             //System.exit(0);
