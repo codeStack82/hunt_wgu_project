@@ -5,6 +5,8 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
@@ -38,6 +40,11 @@
                   <Font size="27.0" />
                </font>
             </Label>
+            <ImageView fitHeight="91.0" fitWidth="96.0" layoutX="54.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/img/icons8-calendar-48.png" />
+               </image>
+            </ImageView>
          </children>
       </Pane>
       <HBox layoutX="254.0" layoutY="121.0" prefHeight="100.0" prefWidth="300.0" AnchorPane.bottomAnchor="170.0" AnchorPane.leftAnchor="254.0" AnchorPane.rightAnchor="49.0" AnchorPane.topAnchor="121.0">
@@ -72,7 +79,7 @@
          <children>
             <Label fx:id="lbl_error" alignment="CENTER" contentDisplay="CENTER" opacity="0.61" prefHeight="49.0" prefWidth="308.0" textFill="RED" />
          </children></HBox>
-      <Label contentDisplay="RIGHT" layoutX="336.0" layoutY="50.0" prefHeight="0.0" prefWidth="215.0" text="Login" textAlignment="RIGHT" textFill="#656565">
+      <Label contentDisplay="RIGHT" layoutX="385.0" layoutY="61.0" prefHeight="60.0" prefWidth="118.0" text="Login" textAlignment="RIGHT" textFill="#656565">
          <font>
             <Font size="48.0" />
          </font>

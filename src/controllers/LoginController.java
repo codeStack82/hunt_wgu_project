@@ -26,15 +26,16 @@ public class LoginController {
 
     @FXML
     private void loginSubmitAction(ActionEvent event) {
-        lbl_error.setText("*** Wrong Please Try Again ***");
+        String un = "admin";
+        String pw = "admin";
+        String un_actual = txt_username.getText().trim();
+        String pw_actual = txt_password.getText().trim();
 
-        Alerter a = new Alerter(
-                "Test",
-                "Hello",
-                "Please Work",
-                AlertType.INFORMATION // TODO: build enum
-                );
-
+        if (un.equalsIgnoreCase(un_actual)){
+            lbl_error.setText("admin logged in");
+        }else{
+            lbl_error.setText("admin NOT logged in");
+        }
     }
 
 }

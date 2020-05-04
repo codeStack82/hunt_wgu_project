@@ -10,7 +10,7 @@ public class Alerter {
     private String content = "content";
 
     // TODO: Need to build overloads
-    // TODO: Build enum for AlerTypes
+    // TODO: Build enum for AlertTypes
 
     public Alerter(String title,
                    String header,
