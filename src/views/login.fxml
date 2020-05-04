@@ -68,11 +68,11 @@
             </VBox>
          </children>
       </HBox>
-      <HBox layoutX="254.0" layoutY="300.0" prefHeight="37.0" prefWidth="297.0" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="254.0" AnchorPane.rightAnchor="49.0">
+      <HBox layoutX="336.0" layoutY="300.0" prefHeight="37.0" prefWidth="215.0" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="336.0" AnchorPane.rightAnchor="49.0">
          <children>
             <Label fx:id="lbl_error" alignment="CENTER" contentDisplay="CENTER" opacity="0.61" prefHeight="49.0" prefWidth="308.0" textFill="RED" />
          </children></HBox>
-      <Label layoutX="336.0" layoutY="50.0" prefHeight="0.0" prefWidth="215.0" text="Log in" textAlignment="CENTER" textFill="#656565">
+      <Label contentDisplay="RIGHT" layoutX="336.0" layoutY="50.0" prefHeight="0.0" prefWidth="215.0" text="Login" textAlignment="RIGHT" textFill="#656565">
          <font>
             <Font size="48.0" />
          </font>

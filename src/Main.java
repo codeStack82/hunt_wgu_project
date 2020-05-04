@@ -10,22 +10,24 @@ public class Main extends Application {
         @Override
         public void start(Stage primaryStage) throws Exception{
             Parent root = FXMLLoader.load(getClass().getResource("views/login.fxml"));
-            primaryStage.setTitle("Hunt WGU Project");
-            primaryStage.setScene(new Scene(root, 600, 400));
+            primaryStage.setTitle("Login");
+            primaryStage.setScene(new Scene(root, 600, 300));
             primaryStage.setResizable(false); ;
             primaryStage.show();
         }
 
         public static void main(String[] args) {
-           // Run tests
-//            TestRunner tests = new TestRunner();
-//            tests.run();
-
-            // Exits sys if running tests
-            //System.exit(0);
-
             // Launch main app
             launch(args);
 
+            //runTests();
         }
+
+        //helper function to run tests
+        public static void runTests(){
+            TestRunner tests = new TestRunner();  // Create test runner
+            tests.run();                          // Run tests
+            System.exit(0);                // Exits sys if running tests
+        }
+
     }
