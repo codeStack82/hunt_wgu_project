@@ -15,14 +15,14 @@
 
 <AnchorPane maxHeight="300.0" maxWidth="600.0" minHeight="300.0" minWidth="600.0" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
    <children>
-      <Pane maxHeight="400.0" prefHeight="400.0" prefWidth="200.0" style="-fx-background-color: #263238 #263238;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <Pane maxHeight="400.0" prefHeight="400.0" prefWidth="200.0" style="-fx-background-color: #263238;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <padding>
             <Insets top="10.0" />
          </padding>
          <children>
             <Label alignment="CENTER" layoutY="66.0" prefHeight="60.0" prefWidth="201.0" text="Appointment" textFill="WHITE">
                <font>
-                  <Font size="27.0" />
+                  <Font size="24.0" />
                </font>
             </Label>
             <Label alignment="CENTER" layoutY="272.0" prefHeight="30.0" prefWidth="201.0" text="Tyler Hunt - WGU 2020" textFill="WHITE">
@@ -32,15 +32,15 @@
             </Label>
             <Label alignment="CENTER" layoutX="-1.0" layoutY="29.0" prefHeight="60.0" prefWidth="201.0" text="Client" textFill="WHITE">
                <font>
-                  <Font size="27.0" />
+                  <Font size="24.0" />
                </font>
             </Label>
             <Label alignment="CENTER" layoutY="101.0" prefHeight="60.0" prefWidth="201.0" text="Schedular" textFill="WHITE">
                <font>
-                  <Font size="27.0" />
+                  <Font size="24.0" />
                </font>
             </Label>
-            <ImageView fitHeight="91.0" fitWidth="96.0" layoutX="54.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="70.0" fitWidth="65.0" layoutX="68.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../resources/img/icons8-calendar-48.png" />
                </image>
