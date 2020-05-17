@@ -28,10 +28,14 @@ public class LoginController {
     private void loginSubmitAction(ActionEvent event) {
         String un = "admin";
         String pw = "admin";
+
         String un_actual = txt_username.getText().trim();
         String pw_actual = txt_password.getText().trim();
 
-        if (un.equalsIgnoreCase(un_actual)){
+        if (un.equalsIgnoreCase(un_actual) &&
+                pw.equalsIgnoreCase(pw_actual)
+
+        ){
             lbl_error.setText("admin logged in");
         }else{
             lbl_error.setText("admin NOT logged in");
