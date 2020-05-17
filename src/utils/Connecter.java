@@ -49,10 +49,10 @@ public class Connecter {
     }
 
     // Test DB Connection(s)
-    public static void main(String args[]){
-        Connecter conn = new Connecter();
-        conn.connect();
-        conn.disconnect();
-
-    }
+//    public static void main(String args[]){
+//        Connecter conn = new Connecter();
+//        conn.connect();
+//        conn.disconnect();
+//
+//    }
 }
